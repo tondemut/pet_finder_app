@@ -39,8 +39,10 @@ function fetchAnimals(e) {
 // Show Listings Of Pets
 function showAnimals(pets) {
   const results = document.querySelector('#results');
+  
   // Clear First
   results.innerHTML = '';
+  
   // Loop Through Pets
   pets.forEach(pet => {
     console.log(pet);
